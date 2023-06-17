@@ -1,5 +1,6 @@
-- [序言](README.md)
+- [总序](README.md)
 - 第一部 敏捷顾问
+  - [序言](consultants/0-preface.md)
 - 第二部 敏捷组织
 - 第三部 敏捷转型
 - 第四部 敏捷旅程
