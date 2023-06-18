@@ -2,6 +2,7 @@
 - 第一部 敏捷顾问
   - [序言](consultants/0-preface.md)
   - [1 无效的顾问](consultants/1-ineffective-consultant.md)
+  - [2 顾问的知识](consultants/2-knowledge-of-consultant.md)
 - 第二部 敏捷组织
 - 第三部 敏捷转型
 - 第四部 敏捷旅程
