@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "convert": "node_modules/.bin/docsify-pdf-converter"
+  },
+  "dependencies": {
+    "docsify-pdf-converter": "^2.0.7"
+  }
+}

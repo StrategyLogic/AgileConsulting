@@ -28,6 +28,17 @@
 2. 如果您有内容要提交或修改，请克隆一个分支修改后再向 [GitHub Repo](https://github.com/DCG-Strategy/AgileConsulting) 提交合并请求。
 3. 如果您希望成为本书的贡献者，请发送您的个人简介和相关文章作品到 [info@withfield.tech](mailto:info@withfield.tech)。
 
+## 生成PDF
+
+本书使 `docsify-pdf-converter` 生成 PDF 文件，使用方式如下：
+
+```bash
+npm install docsify-pdf-converter
+npm run convert
+```
+
+在目录 PDF 文件夹下可看到生成的文件 AgileConsulting.pdf 。
+
 ## 版权声明
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br /><a xmlns:dct="http://purl.org/dc/terms/" href="https://https://github.com/DCG-Strategy/AgileConsulting" property="dct:title" rel="dct:type">敏捷咨询</a> 由 <a xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName" rel="cc:attributionURL">DCG</a> 采用 <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">知识共享 署名-非商业性使用-禁止演绎 4.0 国际 许可协议</a> 进行许可。
