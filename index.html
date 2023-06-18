@@ -12,7 +12,7 @@
   <script src="//cdn.jsdelivr.net/npm/marked@4"></script>
 </head>
 <body>
-  <div id="app">加载中...</div>
+  <div id="app">探索复杂性...</div>
   <script>
     window.$docsify = {
       name: '敏捷咨询 <small>v1.0</small>',
@@ -20,7 +20,8 @@
       coverpage: true,
       loadSidebar: true,
       alias: {
-        '/.*/_sidebar.md': '/_sidebar.md'
+        '/.*/_sidebar.md': '/_sidebar.md',
+        '/.*/_navbar.md': '/_navbar.md'
       },
       loadNavbar: true,
       mergeNavbar: true,
@@ -57,6 +58,19 @@
           '/en/': 'Copied'
         }
       },
+      count:{
+          countable: true,
+          position: 'top',
+          margin: '10px',
+          float: 'right',
+          fontsize:'1em',
+          language:'chinese',
+          localization: {
+              words: "",
+              minute: ""
+          },
+          isExpected: true
+      },
       pagination: {
         previousText: '上一篇',
         nextText: '下一篇',
@@ -70,6 +84,7 @@
   <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-pagination@2.6.1/dist/docsify-pagination.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-count@latest/dist/countable.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-latex@0"></script>
 </body>
 </html>
