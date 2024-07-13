@@ -2,101 +2,24 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Agile Consulting @ DCG</title>
+  <title>Document</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="https://dcg-strategy.github.io/AgileConsulting/assets/vue.css">
-  <script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css"/>
-  <script src="https://cdn.jsdelivr.net/npm/marked@4"></script>
-  <script>
-    if (document.location.host.indexOf("localhost") <= -1) {
-      var _hmt = _hmt || [];
-      (function() {
-        var hm = document.createElement("script");
-        hm.src = "https://hm.baidu.com/hm.js?2195b1151783abbe1e74c24fb6a8702a";
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(hm, s);
-      })();
-    }
-  </script>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
 </head>
 <body>
-  <div id="app">探索复杂性...</div>
+  <div id="app"></div>
   <script>
     window.$docsify = {
-      name: '敏捷咨询 <small>v1.0</small>',
-      repo: 'https://github.com/DCG-Strategy/AgileConsulting',
-      coverpage: true,
+      name: '',
+      repo: '',
       loadSidebar: true,
-      alias: {
-        '/.*/_sidebar.md': '/_sidebar.md',
-        '/.*/_navbar.md': '/_navbar.md'
-      },
       loadNavbar: true,
-      mergeNavbar: true,
-      subMaxLevel: 2,
-      search: {
-        paths: 'auto',
-        placeholder: {
-          '/': '搜索',
-          '/en/': 'Type to search'
-        },
-        noData: {
-          '/': '找不到结果',
-          '/en/': 'No Results'
-        }
-      },
-      copyCode: {
-        buttonText: {
-          '/': '点击复制',
-          '/ru/': 'Скопировать в буфер обмена',
-          '/de-de/': 'Klicken Sie zum Kopieren',
-          '/es/': 'Haga clic para copiar',
-          '/en/': 'Copy to clipboard'
-        },
-        errorText: {
-          '/': '错误',
-          '/ru/': 'ошибка',
-          '/en/': 'Error'
-        },
-        successText: {
-          '/': '复制',
-          '/ru/': 'Скопировано',
-          '/de-de/': 'Kopiert',
-          '/es/': 'Copiado',
-          '/en/': 'Copied'
-        }
-      },
-      count:{
-          countable: true,
-          position: 'top',
-          margin: '10px',
-          float: 'right',
-          fontsize:'1em',
-          language:'chinese',
-          localization: {
-              words: "",
-              minute: ""
-          },
-          isExpected: true
-      },
-      pagination: {
-        previousText: '上一篇',
-        nextText: '下一篇',
-        crossChapter: true,
-        crossChapterText: true,
-      }
+      coverpage: true
     }
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-  <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/docsify-pagination@2.6.1/dist/docsify-pagination.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/prismjs/components/prism-bash.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/docsify-count@latest/dist/countable.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/docsify-latex@0"></script>
 </body>
 </html>

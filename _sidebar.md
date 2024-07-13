@@ -4,7 +4,9 @@
   - [1 无效的顾问](consultants/1-ineffective-consultant.md)
   - [2 顾问的知识](consultants/2-knowledge-of-consultant.md)
   - [3 敏捷再思考](consultants/3-rethinking-agile.md)
-    <!-- - [3.1 动态性](consultants/3-1-dynamicity.md) -->
+  - 4 应对不确定性
+    - [4.1 跟随动态性](consultants/3-1-dynamicity.md)
+    - 4.2 分解复杂性
 - 第二部 敏捷组织
 - 第三部 敏捷转型
 - 第四部 敏捷旅程
